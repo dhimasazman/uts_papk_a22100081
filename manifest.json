@@ -1,7 +1,7 @@
 {
   "name": "App Grosir Sembako",
-  "short_name": "kalkulator",
-  "description": "Membuat Aplikasi Kalkulator sederhana dengan javascript PWA",
+  "short_name": "Grosir Sembako",
+  "description": "Membuat Aplikasi Grosir Sembako dengan javascript PWA",
   "icons": [
     {
       "src": "assets/pic/icons.png",
@@ -9,7 +9,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#1F3641",
   "background_color": "#ffffff",
