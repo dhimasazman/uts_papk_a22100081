@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grosir Sembako</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+  <!-- Splash Screen -->
+  <div class="splash-screen">
+    <img src="assets/pic/icons.png" alt="assets">
+  </div>
+
+  <div class="container">
+    <h2>Grosir Sembako</h2>
+    <h6> Jalan Situraja - Wado</h6>
+
+    <form id="productForm">
+      <label for="productName">Nama Produk:</label>
+      <input type="text" id="productName" required>
+
+      <label for="productPrice">Harga :</label>
+      <input type="number" id="productPrice" required>
+
+      <!-- Menambahkan input untuk foto -->
+      <label for="productImage">Foto Produk:</label>
+      <input type="file" id="productImage" accept="image/*">
+
+      <button type="button" onclick="addProduct()">Tambah Produk</button>
+    </form>
+
+    <table id="productTable">
+      <thead>
+        <tr>
+          <th>Nama Produk</th>
+          <th>Harga</th>
+          <th>Foto</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+    <h3>Total Harga Semua Produk:</h3>
+    <p id="totalPrice">0</p>
+  </div>
+  
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/load.js"></script>
+  <script src="assets/js/register.js"></script>
+</body>
+
+</html>
